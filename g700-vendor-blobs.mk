@@ -17,7 +17,9 @@
 PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/framework/org.cyanogenmod.platform.jar:system/framework/org.cyanogenmod.platform.jar \
  vendor/huawei/g700/proprietary/framework/org.cyanogenmod.platform-res.apk:system/framework/org.cyanogenmod.platform-res.apk \
+ vendor/huawei/g700/proprietary/etc/preload-classes:system/etc/preload-classes \
  vendor/huawei/g700/proprietary/etc/agps_profiles_conf.xml:system/etc/agps_profiles_conf.xml \
+ vendor/huawei/g700/proprietary/etc/firmware/modem.img:system/etc/firmware/modem.img \
  vendor/huawei/g700/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
  vendor/huawei/g700/proprietary/etc/firmware/WIFI_RAM_CODE_E6:system/etc/firmware/WIFI_RAM_CODE_E6 \
  vendor/huawei/g700/proprietary/etc/firmware/mt6628/mt6628_fm_v2_coeff.bin:system/etc/firmware/mt6628/mt6628_fm_v2_coeff.bin \
@@ -128,6 +130,27 @@ PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
  vendor/huawei/g700/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
  vendor/huawei/g700/proprietary/lib/libm4u.so:system/lib/libm4u.so \
+ vendor/huawei/g700/proprietary/lib/modules/ccci.ko:system/lib/modules/ccci.ko \
+ vendor/huawei/g700/proprietary/lib/modules/ccci_plat.ko:system/lib/modules/ccci_plat.ko \
+ vendor/huawei/g700/proprietary/lib/modules/cifs.ko:system/lib/modules/cifs.ko \
+ vendor/huawei/g700/proprietary/lib/modules/devapc.ko:system/lib/modules/devapc.ko \
+ vendor/huawei/g700/proprietary/lib/modules/devinfo.ko:system/lib/modules/devinfo.ko \
+ vendor/huawei/g700/proprietary/lib/modules/hid-logitech-dj.ko:system/lib/modules/hid-logitech-dj.ko \
+ vendor/huawei/g700/proprietary/lib/modules/md4.ko:system/lib/modules/md4.ko \
+ vendor/huawei/g700/proprietary/lib/modules/mtk_fm_drv.ko:system/lib/modules/mtk_fm_drv.ko \
+ vendor/huawei/g700/proprietary/lib/modules/mtk_hif_sdio.ko:system/lib/modules/mtk_hif_sdio.ko \
+ vendor/huawei/g700/proprietary/lib/modules/mtk_stp_bt.ko:system/lib/modules/mtk_stp_bt.ko \
+ vendor/huawei/g700/proprietary/lib/modules/mtk_stp_gps.ko:system/lib/modules/mtk_stp_gps.ko \
+ vendor/huawei/g700/proprietary/lib/modules/mtk_stp_uart.ko:system/lib/modules/mtk_stp_uart.ko \
+ vendor/huawei/g700/proprietary/lib/modules/mtk_stp_wmt.ko:system/lib/modules/mtk_stp_wmt.ko \
+ vendor/huawei/g700/proprietary/lib/modules/mtk_wmt_wifi.ko:system/lib/modules/mtk_wmt_wifi.ko \
+ vendor/huawei/g700/proprietary/lib/modules/mtklfb.ko:system/lib/modules/mtklfb.ko \
+ vendor/huawei/g700/proprietary/lib/modules/pvrsrvkm.ko:system/lib/modules/pvrsrvkm.ko \
+ vendor/huawei/g700/proprietary/lib/modules/scsi_tgt.ko:system/lib/modules/scsi_tgt.ko \
+ vendor/huawei/g700/proprietary/lib/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko \
+ vendor/huawei/g700/proprietary/lib/modules/sec.ko:system/lib/modules/sec.ko \
+ vendor/huawei/g700/proprietary/lib/modules/vcodec_kernel_driver.ko:system/lib/modules/vcodec_kernel_driver.ko \
+ vendor/huawei/g700/proprietary/lib/modules/wlan_mt6628.ko:system/lib/modules/wlan_mt6628.ko \
  vendor/huawei/g700/proprietary/lib/hw/hwcomposer.mt6589.so:system/lib/hw/hwcomposer.mt6589.so.bak \
  vendor/huawei/g700/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
  vendor/huawei/g700/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
