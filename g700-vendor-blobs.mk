@@ -17,7 +17,7 @@
 PRODUCT_COPY_FILES += \
  vendor/huawei/g700/proprietary/framework/org.cyanogenmod.platform.jar:system/framework/org.cyanogenmod.platform.jar \
  vendor/huawei/g700/proprietary/framework/org.cyanogenmod.platform-res.apk:system/framework/org.cyanogenmod.platform-res.apk \
- vendor/huawei/g700/proprietary/etc/preload-classes:system/etc/preload-classes \
+# vendor/huawei/g700/proprietary/etc/preload-classes:system/etc/preload-classes \
  vendor/huawei/g700/proprietary/etc/agps_profiles_conf.xml:system/etc/agps_profiles_conf.xml \
  vendor/huawei/g700/proprietary/etc/firmware/modem.img:system/etc/firmware/modem.img \
  vendor/huawei/g700/proprietary/etc/firmware/mt6628_patch_e2_1_hdr.bin:system/etc/firmware/mt6628_patch_e2_1_hdr.bin \
